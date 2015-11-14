@@ -65,8 +65,14 @@ input, select {
     vertical-align: middle;
 }
 
-
-//TODO: border-radius
-//TODO: box-sizing
-//TODO: box-shadow
-//TODO: etc
+.clearfix {
+    *zoom: 1;
+    &:before,
+    &:after {
+        display: table;
+        content: "";
+    }
+    &:after {
+        clear: both;
+    }
+}
