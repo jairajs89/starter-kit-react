@@ -18,16 +18,16 @@
     "eslint-plugin-react": "^3.6.2",
     "jasmine-es6": "0.0.18",
     "jsdom": "^7.0.1",
-    "less": "^1.7.0",
     "react": "^0.14.0",
-    "react-addons-test-utils": "^0.14.0"
+    "react-addons-test-utils": "^0.14.0",
+    "recess-jairaj": "^1.1.9"
   },
   "scripts": {
     "start": "zerver --babel --babel-exclude=xlib --cache 31536000,/index.jade:0 src",
     "test": "npm run -s lint && npm run -s jasmine",
     "jasmine": "JASMINE_CONFIG_PATH=test/jasmine.json jasmine --stop-on-failure=true",
     "lint": "npm run -s lint-less && npm run -s lint-js",
-    "lint-less": "lessc --lint src/style/*",
+    "lint-less": "recess src/style/*",
     "lint-js": "eslint --quiet --ignore-pattern=src/xlib/*.js src/*.js src/**/*.js test/*.js test/**/*.js"
   },
   "eslintConfig": {

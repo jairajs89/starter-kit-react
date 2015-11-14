@@ -1,0 +1,12 @@
+{
+    "includePath": ["src/style"],
+    "noIDs": true,
+    "noJSPrefix": true,
+    "noOverqualifying": true,
+    "noUnderscores": true,
+    "noUniversalSelectors": true,
+    "strictPropertyOrder": true,
+    "zeroUnits": true,
+    "prefixWhitespace": false,
+    "noSummary": true
+}
