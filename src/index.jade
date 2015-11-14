@@ -1,0 +1,34 @@
+doctype html
+html
+    head
+        title React Starter Kit
+        meta(name="viewport", content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+
+        //- Styles
+        link(rel="stylesheet", href="/style/base.less?inline=1")
+        link(rel="stylesheet", href="/style/app-wrap.less?inline=1")
+        <!-- zerver:/bundle.css?version=1 -->
+        link(rel="stylesheet", href="/style/app.less")
+        <!-- /zerver -->
+
+    body
+        div.app-wrap.loading
+
+        <!-- zerver:/bundle.ext.js?version=1 -->
+        //- External libraries
+        script(src="/zerver/polyfill.js")
+        script(src="/xlib/react.min.js")
+        script(src="/xlib/react-dom.min.js")
+        <!-- /zerver -->
+
+        <!-- zerver:/bundle.js?version=1 -->
+        //- Libraries
+        script(src="/lib/util.js")
+        script(src="/lib/config.js")
+
+        //- Components
+        script(src="/component/app.js")
+
+        //- Main method
+        script(src="/index.js")
+        <!-- /zerver -->
