@@ -10,7 +10,7 @@
     "npm": "2.14.7"
   },
   "dependencies": {
-    "zerver": "0.17.0"
+    "zerver": "0.17.3"
   },
   "devDependencies": {
     "babel-core": "5.8.25",
