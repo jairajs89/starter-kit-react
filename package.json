@@ -5,6 +5,7 @@
     "type": "git",
     "url": "git@github.com:jairajs89/starter-kit-react.git"
   },
+
   "engines": {
     "node": "4.2.1",
     "npm": "2.14.7"
@@ -31,11 +32,13 @@
     "lint-less": "recess src/style/*",
     "lint-js": "eslint --quiet --ignore-pattern=src/xlib/*.js src/*.js src/**/*.js test/*.js test/**/*.js"
   },
+
   "spec_dir": "test",
   "spec_files": [
       "*.js",
       "**/*.js"
   ],
+
   "recessConfig": {
     "includePath": ["src/style"],
     "noIDs": true,
@@ -48,6 +51,7 @@
     "prefixWhitespace": false,
     "noSummary": true
   },
+
   "eslintConfig": {
     "plugins": [
       "react"
