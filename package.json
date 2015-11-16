@@ -24,7 +24,7 @@
   },
   "scripts": {
     "start": "zerver --babel --babel-exclude=xlib --cache 31536000,/index.jade:0 src",
-    "deploy": "npm test && ZERVER_FLAGS='--s3-deploy=canvas.jairaj.org' npm start",
+    "deploy": "npm test && ZERVER_FLAGS='--s3-deploy=mybucket' npm start",
     "test": "npm run -s lint && npm run -s test-js",
     "test-js": "JASMINE_CONFIG_PATH=package.json jasmine --stop-on-failure=true",
     "lint": "npm run -s lint-less && npm run -s lint-js",
