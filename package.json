@@ -15,12 +15,12 @@
   },
   "devDependencies": {
     "babel-core": "5.8.25",
-    "eslint": "^1.7.1",
-    "eslint-plugin-react": "^3.6.2",
+    "eslint": "1.7.1",
+    "eslint-plugin-react": "3.6.2",
     "jasmine-es6": "0.0.18",
-    "jsdom": "^7.0.1",
-    "react": "^0.14.0",
-    "react-addons-test-utils": "^0.14.0",
+    "jsdom": "7.0.1",
+    "react": "0.14.0",
+    "react-addons-test-utils": "0.14.0",
     "recess-jairaj": "1.1.10"
   },
   "scripts": {
