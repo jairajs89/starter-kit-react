@@ -1,6 +1,6 @@
 import { React } from 'window';
 import TestUtils from 'react-addons-test-utils';
-const App = require('../../src/component/app');
+import App from '../../src/component/app';
 
 describe('App', ()=> {
     it('it prints hello world', ()=> {

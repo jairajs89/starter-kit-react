@@ -1,4 +1,4 @@
-const Util = require('../../src/lib/util');
+import { parseUrl, buildUrl } from '../../src/lib/util';
 
 describe('Util', ()=> {
     describe('.parseUrl/.buildUrl', ()=> {
@@ -24,8 +24,8 @@ describe('Util', ()=> {
 
             for (const url in matches) {
                 const parsed = matches[url];
-                expect(Util.parseUrl(url)).toEqual(parsed);
-                expect(Util.buildUrl(parsed)).toEqual(url);
+                expect(parseUrl(url)).toEqual(parsed);
+                expect(buildUrl(parsed)).toEqual(url);
             }
         });
     });
