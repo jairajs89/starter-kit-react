@@ -1,5 +1,5 @@
 React Starter Kit
-===================
+=================
 
 [![Build Status](https://travis-ci.org/jairajs89/starter-kit-react.png?branch=master)](https://travis-ci.org/jairajs89/starter-kit-react)
 
