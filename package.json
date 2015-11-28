@@ -11,10 +11,9 @@
     "npm": "2.14.7"
   },
   "dependencies": {
-    "zerver": "0.17.4"
+    "zerver": "1.0.0"
   },
   "devDependencies": {
-    "babel-core": "5.8.25",
     "eslint": "1.7.1",
     "eslint-plugin-react": "3.6.2",
     "jasmine-es6": "0.0.18",
