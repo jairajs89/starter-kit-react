@@ -23,7 +23,7 @@
     "recess-jairaj": "1.1.10"
   },
   "scripts": {
-    "start": "zerver --babel --babel-exclude=xlib --cache 31536000,/index.jade:0 src",
+    "start": "zerver --es6 --es6-exclude=xlib --cache 31536000,/index.jade:0 src",
     "deploy": "npm test && ZERVER_FLAGS='--s3-deploy=mybucket' npm start",
     "test": "npm run -s lint && npm run -s test-js",
     "test-js": "JASMINE_CONFIG_PATH=package.json jasmine --stop-on-failure=true",
