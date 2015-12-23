@@ -33,7 +33,7 @@ The test suite includes linting of styles and scripts
 ```
 src/
     index.jade
-    index.js
+    main.js
     xlib/
     lib/
     component/
@@ -46,7 +46,7 @@ test/
 
 * **`src/`** All of our shipped code
 * **`src/index.jade`** Root file that compiles to HTML, put file dependencies here
-* **`src/index.js`** Root JS file that acts like the main method, all other files simply hold classes
+* **`src/main.js`** Root JS file that acts like the main method, all other files simply hold classes
 * **`src/xlib/`** External dependencies
 * **`src/lib/`** Internal libraries and utilities
 * **`src/component/`** UI component classes (built using React)
