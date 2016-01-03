@@ -59,7 +59,8 @@
       "browser": true,
       "worker": true,
       "es6": true,
-      "jasmine": true
+      "jasmine": true,
+      "node": true
     },
     "ecmaFeatures": {
       "modules": true,

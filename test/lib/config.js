@@ -1,6 +1,6 @@
 describe('Config', ()=> {
     it('has config and injects overrides from query string', ()=> {
-        // Enable when we actual configs
+        // Enable when we have actual configs
         // const url1 = 'http://sup.com/';
         // const url2 = 'http://localhost:5000/';
         // const host = 'override.com';

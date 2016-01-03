@@ -1,6 +1,7 @@
 import { location } from 'window';
 import { parseUrl, buildUrl } from './util';
 
+const HARDCODED_CONFIG = ['VERSION'];
 const LOCALHOST = 'localhost';
 
 function replaceLocalhost(url, parsedReplacement) {
@@ -18,7 +19,7 @@ function injectOverrides(config) {
     const parsed = parseUrl(location.href);
     if (parsed) {
         for (const key in parsed.query) {
-            if (key in config) {
+            if (key in config && !(key in HARDCODED_CONFIG)) {
                 config[key] = replaceLocalhost(parsed.query[key], parsed);
             }
         }
