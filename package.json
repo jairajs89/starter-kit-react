@@ -11,7 +11,7 @@
     "npm": "2.14.7"
   },
   "dependencies": {
-    "zerver": "1.0.0"
+    "zerver": "1.0.1"
   },
   "devDependencies": {
     "eslint": "1.7.1",
